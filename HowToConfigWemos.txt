@@ -1,0 +1,16 @@
+You need a WEMOS card or ESP32 with Arduino Board and Arduino IDE to load scatches for this example.
+
+1. Download Arduino IDE from here - https://arduino.cc
+
+2. Open Arduino IDE properties and in the new window insert this link:
+
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+into the Additional link for Boards' Manager section
+
+3. Then open the Tools menu and choose Board Manager in the Board submenu.
+
+4. Type WEMOS in the search string of the Board Manager Window and install ESP8266 and ESP8266 Community drivers.
+
+5. The Last step is going back to Tools Menu and selecting your board in the submenu Boards. In my case, it was LOLIN (WEMOS R1 D2)
+
